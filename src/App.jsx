@@ -5,7 +5,7 @@ import { RefreshButton } from './components/RefreshButton';
 import { LoveBackground } from './components/LoveBackground';
 import { getStoredQuote, storeQuote, clearStoredQuote } from './utils/quoteStorage';
 
-const QUOTES_API_URL = '/api/quotes';
+const QUOTES_API_URL = 'https://motivational-spark-api.vercel.app/api/quotes';
 
 function App() {
   const [quote, setQuote] = useState(null);
